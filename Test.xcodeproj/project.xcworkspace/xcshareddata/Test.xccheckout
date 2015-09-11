@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3CA7A3AE-5170-4282-830E-0215959186DC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23826D106025DEE0622872C3630C82AEBF75BCAB</key>
+		<string>https://github.com/sauvikatinnofied/NexmoTestApp.git</string>
+		<key>CE087E07D57661612519BF053C6BEF980C143055</key>
+		<string>https://github.com/nexmo/verify-ios-sdk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Test.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23826D106025DEE0622872C3630C82AEBF75BCAB</key>
+		<string>../..</string>
+		<key>CE087E07D57661612519BF053C6BEF980C143055</key>
+		<string>../..verify-ios-sdk/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sauvikatinnofied/NexmoTestApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23826D106025DEE0622872C3630C82AEBF75BCAB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23826D106025DEE0622872C3630C82AEBF75BCAB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NexmoTestApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE087E07D57661612519BF053C6BEF980C143055</string>
+			<key>IDESourceControlWCCName</key>
+			<string>verify-ios-sdk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

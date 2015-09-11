@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450490451BA2E3A2007178E0 /* DeviceProperties.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450490421BA2E390007178E0 /* DeviceProperties.framework */; };
+		450490461BA2E3A2007178E0 /* RequestSigning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4504903E1BA2E390007178E0 /* RequestSigning.framework */; };
+		450490471BA2E3A2007178E0 /* VerifyIosSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4504903A1BA2E390007178E0 /* VerifyIosSdk.framework */; };
 		45F4BCD11BA029AE00599177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4BCD01BA029AE00599177 /* AppDelegate.swift */; };
 		45F4BCD31BA029AE00599177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4BCD21BA029AE00599177 /* ViewController.swift */; };
 		45F4BCD61BA029AE00599177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F4BCD41BA029AE00599177 /* Main.storyboard */; };
 		45F4BCD81BA029AE00599177 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F4BCD71BA029AE00599177 /* Images.xcassets */; };
 		45F4BCDB1BA029AE00599177 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F4BCD91BA029AE00599177 /* LaunchScreen.xib */; };
 		45F4BCE71BA029AF00599177 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4BCE61BA029AF00599177 /* TestTests.swift */; };
-		45F4BDD61BA02BD900599177 /* DeviceProperties.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4BDD31BA02BB600599177 /* DeviceProperties.framework */; };
-		45F4BDD71BA02BD900599177 /* RequestSigning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4BDCF1BA02BB600599177 /* RequestSigning.framework */; };
-		45F4BDD81BA02BD900599177 /* VerifyIosSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4BDCB1BA02BB600599177 /* VerifyIosSdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		450490391BA2E390007178E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2ABA3AB91B6166A800EB4842;
+			remoteInfo = VerifyIosSdk;
+		};
+		4504903B1BA2E390007178E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2ABA3AC41B6166A900EB4842;
+			remoteInfo = VerifyIosSdkTests;
+		};
+		4504903D1BA2E390007178E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2A6B60761B67A04B005378E0;
+			remoteInfo = RequestSigning;
+		};
+		4504903F1BA2E390007178E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2A6B60801B67A04B005378E0;
+			remoteInfo = RequestSigningTests;
+		};
+		450490411BA2E390007178E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2A6B60981B67A078005378E0;
+			remoteInfo = DeviceProperties;
+		};
+		450490431BA2E390007178E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2A6B60A21B67A078005378E0;
+			remoteInfo = DevicePropertiesTests;
+		};
 		45F4BCE11BA029AF00599177 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45F4BCC31BA029AE00599177 /* Project object */;
@@ -26,51 +68,10 @@
 			remoteGlobalIDString = 45F4BCCA1BA029AE00599177;
 			remoteInfo = Test;
 		};
-		45F4BDCA1BA02BB600599177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2ABA3AB91B6166A800EB4842;
-			remoteInfo = VerifyIosSdk;
-		};
-		45F4BDCC1BA02BB600599177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2ABA3AC41B6166A900EB4842;
-			remoteInfo = VerifyIosSdkTests;
-		};
-		45F4BDCE1BA02BB600599177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2A6B60761B67A04B005378E0;
-			remoteInfo = RequestSigning;
-		};
-		45F4BDD01BA02BB600599177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2A6B60801B67A04B005378E0;
-			remoteInfo = RequestSigningTests;
-		};
-		45F4BDD21BA02BB600599177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2A6B60981B67A078005378E0;
-			remoteInfo = DeviceProperties;
-		};
-		45F4BDD41BA02BB600599177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2A6B60A21B67A078005378E0;
-			remoteInfo = DevicePropertiesTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VerifyIosSdk.xcodeproj; path = "verify-ios-sdk/VerifyIosSdk.xcodeproj"; sourceTree = "<group>"; };
 		45F4BCCB1BA029AE00599177 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F4BCCF1BA029AE00599177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F4BCD01BA029AE00599177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		45F4BCE01BA029AF00599177 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F4BCE51BA029AF00599177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F4BCE61BA029AF00599177 /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
-		45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VerifyIosSdk.xcodeproj; path = "../../../Downloads/verify-ios-sdk-master/VerifyIosSdk.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F4BDD61BA02BD900599177 /* DeviceProperties.framework in Frameworks */,
-				45F4BDD71BA02BD900599177 /* RequestSigning.framework in Frameworks */,
-				45F4BDD81BA02BD900599177 /* VerifyIosSdk.framework in Frameworks */,
+				450490451BA2E3A2007178E0 /* DeviceProperties.framework in Frameworks */,
+				450490461BA2E3A2007178E0 /* RequestSigning.framework in Frameworks */,
+				450490471BA2E3A2007178E0 /* VerifyIosSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,10 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450490311BA2E38F007178E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4504903A1BA2E390007178E0 /* VerifyIosSdk.framework */,
+				4504903C1BA2E390007178E0 /* VerifyIosSdkTests.xctest */,
+				4504903E1BA2E390007178E0 /* RequestSigning.framework */,
+				450490401BA2E390007178E0 /* RequestSigningTests.xctest */,
+				450490421BA2E390007178E0 /* DeviceProperties.framework */,
+				450490441BA2E390007178E0 /* DevicePropertiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		45F4BCC21BA029AE00599177 = {
 			isa = PBXGroup;
 			children = (
-				45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */,
+				450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */,
 				45F4BCCD1BA029AE00599177 /* Test */,
 				45F4BCE31BA029AF00599177 /* TestTests */,
 				45F4BCCC1BA029AE00599177 /* Products */,
@@ -160,19 +173,6 @@
 				45F4BCE51BA029AF00599177 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		45F4BDC21BA02BB600599177 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45F4BDCB1BA02BB600599177 /* VerifyIosSdk.framework */,
-				45F4BDCD1BA02BB600599177 /* VerifyIosSdkTests.xctest */,
-				45F4BDCF1BA02BB600599177 /* RequestSigning.framework */,
-				45F4BDD11BA02BB600599177 /* RequestSigningTests.xctest */,
-				45F4BDD31BA02BB600599177 /* DeviceProperties.framework */,
-				45F4BDD51BA02BB600599177 /* DevicePropertiesTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +244,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 45F4BDC21BA02BB600599177 /* Products */;
-					ProjectRef = 45F4BDC11BA02BB600599177 /* VerifyIosSdk.xcodeproj */;
+					ProductGroup = 450490311BA2E38F007178E0 /* Products */;
+					ProjectRef = 450490301BA2E38F007178E0 /* VerifyIosSdk.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -257,46 +257,46 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		45F4BDCB1BA02BB600599177 /* VerifyIosSdk.framework */ = {
+		4504903A1BA2E390007178E0 /* VerifyIosSdk.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = VerifyIosSdk.framework;
-			remoteRef = 45F4BDCA1BA02BB600599177 /* PBXContainerItemProxy */;
+			remoteRef = 450490391BA2E390007178E0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45F4BDCD1BA02BB600599177 /* VerifyIosSdkTests.xctest */ = {
+		4504903C1BA2E390007178E0 /* VerifyIosSdkTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = VerifyIosSdkTests.xctest;
-			remoteRef = 45F4BDCC1BA02BB600599177 /* PBXContainerItemProxy */;
+			remoteRef = 4504903B1BA2E390007178E0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45F4BDCF1BA02BB600599177 /* RequestSigning.framework */ = {
+		4504903E1BA2E390007178E0 /* RequestSigning.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = RequestSigning.framework;
-			remoteRef = 45F4BDCE1BA02BB600599177 /* PBXContainerItemProxy */;
+			remoteRef = 4504903D1BA2E390007178E0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45F4BDD11BA02BB600599177 /* RequestSigningTests.xctest */ = {
+		450490401BA2E390007178E0 /* RequestSigningTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = RequestSigningTests.xctest;
-			remoteRef = 45F4BDD01BA02BB600599177 /* PBXContainerItemProxy */;
+			remoteRef = 4504903F1BA2E390007178E0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45F4BDD31BA02BB600599177 /* DeviceProperties.framework */ = {
+		450490421BA2E390007178E0 /* DeviceProperties.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = DeviceProperties.framework;
-			remoteRef = 45F4BDD21BA02BB600599177 /* PBXContainerItemProxy */;
+			remoteRef = 450490411BA2E390007178E0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45F4BDD51BA02BB600599177 /* DevicePropertiesTests.xctest */ = {
+		450490441BA2E390007178E0 /* DevicePropertiesTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = DevicePropertiesTests.xctest;
-			remoteRef = 45F4BDD41BA02BB600599177 /* PBXContainerItemProxy */;
+			remoteRef = 450490431BA2E390007178E0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -525,6 +525,7 @@
 				45F4BCEC1BA029AF00599177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45F4BCED1BA029AF00599177 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +534,7 @@
 				45F4BCEF1BA029AF00599177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

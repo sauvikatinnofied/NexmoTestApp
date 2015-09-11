@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     @IBAction func buttonClickedSendCode(sender: AnyObject) {
-        VerifyClient.getVerifiedUser(countryCode: "IN", phoneNumber: textFieldPhoneNumber.text,
+        VerifyClient.getVerifiedUser(countryCode: nil, phoneNumber: textFieldPhoneNumber.text,
             onVerifyInProgress: {
                 // called when the verification process begins
             },
